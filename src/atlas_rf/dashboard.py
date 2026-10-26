@@ -68,14 +68,14 @@ with left:
     im = ax.imshow(power_db,origin="lower",aspect="auto",extent=[-180,180,0,90],cmap="magma",vmin=-40,vmax=0)
     ax.set_xlabel("Azimut φ (grados)"); ax.set_ylabel("θ desde +Y (grados)")
     ax.set_title("Mapa angular del factor de arreglo"); fig.colorbar(im,ax=ax,label="Potencia normalizada (dB)")
-    fig.tight_layout(); st.pyplot(fig,use_container_width=True); plt.close(fig)
+    fig.tight_layout(); st.pyplot(fig,width="stretch"); plt.close(fig)
 with right:
     cut = array_factor(rows,cols,freq_hz,spacing_m,spacing_m,np.radians(theta_deg),np.zeros_like(theta_deg))
     fig2,ax2 = plt.subplots(figsize=(6,4.4))
     ax2.plot(theta_deg,10*np.log10(np.maximum(cut**2,1e-6)))
     ax2.set_xlabel("θ desde +Y (grados)"); ax2.set_ylabel("Potencia normalizada (dB)")
     ax2.set_title("Corte principal φ = 0°"); ax2.set_ylim(-45,1); ax2.grid(True,alpha=.3)
-    fig2.tight_layout(); st.pyplot(fig2,use_container_width=True); plt.close(fig2)
+    fig2.tight_layout(); st.pyplot(fig2,width="stretch"); plt.close(fig2)
 st.info("El patrón de elemento, el plano de masa y el acoplamiento no están modelados. No interpretes estas figuras como patrón completo de antena.")
 
 st.subheader("Métricas no disponibles")
@@ -84,7 +84,7 @@ x.metric("S11", "No calculado"); y.metric("Ganancia realizada", "No calculada");
 st.subheader("Barrido exploratorio de espaciado")
 if cols >= 2:
     candidates = spacing_sweep(rows,cols,freq_hz)
-    st.dataframe(candidates, use_container_width=True)
+    st.dataframe(candidates, width="stretch")
 else:
     st.caption("Se requieren al menos dos columnas para calcular el barrido lateral.")
 
