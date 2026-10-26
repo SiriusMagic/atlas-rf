@@ -47,3 +47,11 @@ Las dimensiones del parche son estimaciones de primer orden. El STL es una envol
 3. Modelar alimentación, pérdidas, polarización y acoplamiento mutuo.
 4. Comparar simulaciones con mediciones documentadas.
 5. Entrenar un modelo sustituto solo con datos de solver o mediciones trazables; este repositorio no contiene un modelo ML entrenado.
+
+## Licencia
+
+Copyright 2026 SiriusMagic
+
+Este proyecto se distribuye bajo la **Licencia Apache 2.0**. Consulta el archivo [`LICENSE`](./LICENSE) para ver el texto completo.
+
+En resumen: cualquiera puede usar, copiar, modificar y distribuir este código, siempre que conserve el aviso de copyright y la licencia. El software se entrega **"tal cual", sin garantías de ningún tipo**, y los autores no se hacen responsables de daños derivados de su uso.
