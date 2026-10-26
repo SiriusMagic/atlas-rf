@@ -4,7 +4,7 @@ Prototipo científico reproducible para estudiar estimaciones iniciales de parch
 
 ## Inicio rápido
 
-Requiere Python 3.10 o superior.
+Requiere Python 3.11 o superior (probado en 3.11 y 3.13).
 
 ```bash
 pip install -r requirements.txt
@@ -33,6 +33,7 @@ python -m src.atlas_rf --config config/default.json
 - `docs/EQUATIONS.md`: ecuaciones y límites.
 - `docs/VALIDATION_PLAN.md`: plan de validación.
 - `tests/test_model.py`: pruebas unitarias.
+- `legacy/v1/`: primera versión del modelo, conservada como referencia.
 
 ## Límites científicos
 
