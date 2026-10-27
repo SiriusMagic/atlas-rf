@@ -1,4 +1,5 @@
 numpy>=1.26
 matplotlib>=3.8
+pandas>=2.2           # solo para experiments/beam_scheduler
 pytest>=8.0
 streamlit>=1.66
