@@ -6,3 +6,6 @@ results/*.png
 results/*.stl
 results/*.json
 data/experiments.jsonl
+
+# Gráfico generado por experiments/beam_scheduler
+beam_scheduler_resultados.png
