@@ -33,6 +33,7 @@ python -m src.atlas_rf --config config/default.json
 - `docs/EQUATIONS.md`: ecuaciones y límites.
 - `docs/VALIDATION_PLAN.md`: plan de validación.
 - `tests/test_model.py`: pruebas unitarias.
+- `tests/test_experiments.py`: comprueba que el planificador de haces da métricas reales y que los cuadernos estén limpios.
 - `legacy/v1/`: primera versión del modelo, conservada como referencia.
 - `experiments/`: cuadernos y prototipos exploratorios (antenas plegables con FDTD y planificador de haces). Ver `experiments/README.md`.
 
