@@ -34,6 +34,7 @@ python -m src.atlas_rf --config config/default.json
 - `docs/VALIDATION_PLAN.md`: plan de validación.
 - `tests/test_model.py`: pruebas unitarias.
 - `legacy/v1/`: primera versión del modelo, conservada como referencia.
+- `experiments/`: cuadernos y prototipos exploratorios (antenas plegables con FDTD y planificador de haces). Ver `experiments/README.md`.
 
 ## Límites científicos
 
