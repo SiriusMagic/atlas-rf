@@ -12,7 +12,7 @@ Cuaderno de investigación sobre antenas de parche (antes `Copia de Antenas.ipyn
 - **Validación IA vs. física**: la IA propone las medidas de un microstrip a 5 GHz y el FDTD comprueba el resultado.
 - Una evaluación técnica del propio proyecto, con sus límites.
 
-Se limpiaron los resultados guardados (de 22 MB a ~0,5 MB). Ábrelo en Colab con **Archivo → Abrir cuaderno → GitHub** → `SiriusMagic/atlas-rf`, y ejecuta cada sección por separado.
+Se limpiaron los resultados guardados (de 22 MB a ~0,5 MB). Todas las cargas con `torch.load` usan `weights_only=True`: solo leen tensores y números, nunca código. Ábrelo en Colab con **Archivo → Abrir cuaderno → GitHub** → `SiriusMagic/atlas-rf`, y ejecuta cada sección por separado.
 
 ## `beam_scheduler/beam_scheduler.py`
 
