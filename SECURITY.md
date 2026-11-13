@@ -18,4 +18,4 @@ Recibirás respuesta lo antes posible. Por favor, da un plazo razonable para cor
 
 - Nunca se suben contraseñas, claves de API ni archivos `.env` al repositorio. Usa `.env.example` como plantilla.
 - La rama `main` está protegida: los cambios entran solo por pull request.
-- Dependabot vigila las dependencias y propone actualizaciones de seguridad.
+- Las dependencias no se actualizan solas: se revisan a mano cuando hace falta.
